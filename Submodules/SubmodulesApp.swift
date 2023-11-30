@@ -1,11 +1,6 @@
-//
-//  SubmodulesApp.swift
-//  Submodules
-//
-//  Created by mega on 17/11/2023.
-//
-
 import SwiftUI
+import Module
+import ModuleMocks
 
 @main
 struct SubmodulesApp: App {

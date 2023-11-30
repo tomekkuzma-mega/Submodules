@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "3EB1900A-57FF-401F-A589-AFE86AB9F29A",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Submodules.xcodeproj",
+      "identifier" : "94B271622B07E6AD003DB82E",
+      "name" : "Submodules"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Submodules.xcodeproj",
+        "identifier" : "94B271722B07E6AE003DB82E",
+        "name" : "SubmodulesTests"
+      }
+    }
+  ],
+  "version" : 1
+}
