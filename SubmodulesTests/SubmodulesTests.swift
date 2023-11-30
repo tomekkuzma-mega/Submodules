@@ -4,6 +4,6 @@ import ModuleMocks
 
 final class SubmodulesTests: XCTestCase {
     func testExample() throws {
-        XCTAssertEqual(MyModuleMock().method().name, "sample")
+        XCTAssertEqual(MyModuleMock().method().name, "mock")
     }
 }

@@ -1,7 +1,8 @@
 import ModuleInterface
 
-class MyModule: ModuleProtocol {
-    func method() -> ModuleInterface.Value {
-        return ModuleInterface.Value(name: "name")
+public class MyModule: ModuleProtocol {
+    public init() {}
+    public func method() -> ModuleInterface.Value {
+        return ModuleInterface.Value(name: "My Module")
     }
 }

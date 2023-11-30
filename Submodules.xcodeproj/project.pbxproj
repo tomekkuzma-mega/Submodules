@@ -12,6 +12,10 @@
 		94B2716B2B07E6AE003DB82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B2716A2B07E6AE003DB82E /* Assets.xcassets */; };
 		94B2716E2B07E6AE003DB82E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B2716D2B07E6AE003DB82E /* Preview Assets.xcassets */; };
 		94B271782B07E6AE003DB82E /* SubmodulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B271772B07E6AE003DB82E /* SubmodulesTests.swift */; };
+		94B6C40D2B18EBE00009BEC0 /* Module in Frameworks */ = {isa = PBXBuildFile; productRef = 94B6C40C2B18EBE00009BEC0 /* Module */; settings = {ATTRIBUTES = (Weak, ); }; };
+		94B6C40F2B18EBE60009BEC0 /* ModuleInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 94B6C40E2B18EBE60009BEC0 /* ModuleInterface */; };
+		94B6C4112B18EBED0009BEC0 /* ModuleMocks in Frameworks */ = {isa = PBXBuildFile; productRef = 94B6C4102B18EBED0009BEC0 /* ModuleMocks */; };
+		94C41CA72B18E7E400D4B579 /* ModuleMocks in Frameworks */ = {isa = PBXBuildFile; productRef = 94C41CA62B18E7E400D4B579 /* ModuleMocks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B6C40F2B18EBE60009BEC0 /* ModuleInterface in Frameworks */,
+				94B6C4112B18EBED0009BEC0 /* ModuleMocks in Frameworks */,
+				94B6C40D2B18EBE00009BEC0 /* Module in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C41CA72B18E7E400D4B579 /* ModuleMocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +70,7 @@
 				94B271652B07E6AD003DB82E /* Submodules */,
 				94B271762B07E6AE003DB82E /* SubmodulesTests */,
 				94B271642B07E6AD003DB82E /* Products */,
+				94C41CA52B18E7E400D4B579 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +110,13 @@
 			path = SubmodulesTests;
 			sourceTree = "<group>";
 		};
+		94C41CA52B18E7E400D4B579 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,6 +133,11 @@
 			dependencies = (
 			);
 			name = Submodules;
+			packageProductDependencies = (
+				94B6C40C2B18EBE00009BEC0 /* Module */,
+				94B6C40E2B18EBE60009BEC0 /* ModuleInterface */,
+				94B6C4102B18EBED0009BEC0 /* ModuleMocks */,
+			);
 			productName = Submodules;
 			productReference = 94B271632B07E6AD003DB82E /* Submodules.app */;
 			productType = "com.apple.product-type.application";
@@ -135,6 +156,9 @@
 				94B271752B07E6AE003DB82E /* PBXTargetDependency */,
 			);
 			name = SubmodulesTests;
+			packageProductDependencies = (
+				94C41CA62B18E7E400D4B579 /* ModuleMocks */,
+			);
 			productName = SubmodulesTests;
 			productReference = 94B271732B07E6AE003DB82E /* SubmodulesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -473,6 +497,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		94B6C40C2B18EBE00009BEC0 /* Module */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Module;
+		};
+		94B6C40E2B18EBE60009BEC0 /* ModuleInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuleInterface;
+		};
+		94B6C4102B18EBED0009BEC0 /* ModuleMocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuleMocks;
+		};
+		94C41CA62B18E7E400D4B579 /* ModuleMocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ModuleMocks;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 94B2715B2B07E6AD003DB82E /* Project object */;
 }

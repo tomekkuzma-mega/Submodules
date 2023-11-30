@@ -6,19 +6,26 @@
 //
 
 import SwiftUI
+import Module
+import ModuleInterface
 
 struct ContentView: View {
+    let module: any ModuleProtocol
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(module.method().name)
         }
         .padding()
     }
 }
 
+#if DEBUG
+import ModuleMocks
 #Preview {
-    ContentView()
+    ContentView(module: MyModuleMock())
 }
+
+#endif

@@ -4,7 +4,7 @@ public class MyModuleMock: ModuleProtocol {
     public init() {
         
     }
-    public var valueToReturn = ModuleInterface.Value(name: "sample")
+    public var valueToReturn = ModuleInterface.Value(name: "mock")
     public func method() -> ModuleInterface.Value {
         valueToReturn
     }

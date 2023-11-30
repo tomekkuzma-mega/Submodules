@@ -1,12 +1,12 @@
 import SwiftUI
 import Module
-import ModuleMocks
+import ModuleInterface
 
 @main
 struct SubmodulesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(module: MyModule())
         }
     }
 }
