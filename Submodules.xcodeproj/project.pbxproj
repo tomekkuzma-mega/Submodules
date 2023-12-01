@@ -12,9 +12,9 @@
 		94B2716B2B07E6AE003DB82E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B2716A2B07E6AE003DB82E /* Assets.xcassets */; };
 		94B2716E2B07E6AE003DB82E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B2716D2B07E6AE003DB82E /* Preview Assets.xcassets */; };
 		94B271782B07E6AE003DB82E /* SubmodulesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B271772B07E6AE003DB82E /* SubmodulesTests.swift */; };
-		94B6C40D2B18EBE00009BEC0 /* Module in Frameworks */ = {isa = PBXBuildFile; productRef = 94B6C40C2B18EBE00009BEC0 /* Module */; settings = {ATTRIBUTES = (Weak, ); }; };
+		94B6C40D2B18EBE00009BEC0 /* Module in Frameworks */ = {isa = PBXBuildFile; productRef = 94B6C40C2B18EBE00009BEC0 /* Module */; settings = {ATTRIBUTES = (Required, ); }; };
 		94B6C40F2B18EBE60009BEC0 /* ModuleInterface in Frameworks */ = {isa = PBXBuildFile; productRef = 94B6C40E2B18EBE60009BEC0 /* ModuleInterface */; };
-		94B6C4112B18EBED0009BEC0 /* ModuleMocks in Frameworks */ = {isa = PBXBuildFile; productRef = 94B6C4102B18EBED0009BEC0 /* ModuleMocks */; };
+		94B6C4112B18EBED0009BEC0 /* ModuleMocks in Frameworks */ = {isa = PBXBuildFile; productRef = 94B6C4102B18EBED0009BEC0 /* ModuleMocks */; settings = {ATTRIBUTES = (Weak, ); }; };
 		94C41CA72B18E7E400D4B579 /* ModuleMocks in Frameworks */ = {isa = PBXBuildFile; productRef = 94C41CA62B18E7E400D4B579 /* ModuleMocks */; };
 /* End PBXBuildFile section */
 
